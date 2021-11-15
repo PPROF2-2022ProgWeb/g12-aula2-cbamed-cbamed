@@ -1,3 +1,6 @@
+
+/* LANDINGPAGE*/
+
 body {
 
   font-family: Arial;
@@ -8,6 +11,7 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
+
 .topnav a {
   float: left;
   display: block;
@@ -15,7 +19,9 @@ body {
   text-align: center;
   padding: 15px 16px;
   text-decoration:double;
+  
 }
+
 .navbar-logo{
   display: inline-block;
   vertical-align: middle;
@@ -26,159 +32,61 @@ body {
   width: 100%;
   height: auto;
 }
+
 .cover {
 
-     height: 200px; 
+     height: 500px; 
      background-image: url(https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
      background-size: cover;
      background-position: center;
 }
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+
+.nuestros-servicios{
+
+  background-color: gray;
+  padding: 1em;
+  overflow: hidden;
 }
- 
-body{
-  background: #f1f1f1;
+
+.nuestros-servicios h3{
+
+text-align: center;
+
 }
- 
-.container{
-  width: 100%;
-  height: 100vh;
-  padding: 10px;
+
+/* .iconos{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+} */
+
+/* .icono-figura {
+  display: block;
+} */
+
+
+.icono{
+  font-size: 3rem;
+  padding: 1em;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
 }
- 
-.login-container{
-  display: flex;
-  width: 650px;
-  height: auto;
-  background: #fff;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
-}
- 
-.register, .login{
-  flex: 1;
-}
- 
-.register{
-  padding: 40px;
-  position: relative;
-}
- 
-.register h2{
-  color: #797979;
-  margin-bottom: 30px;
-}
- 
-.register input{
-  width: 100%;
-  padding: 5px;
-  font-size: 16px;
-  margin-bottom: 25px;
-  border-top-style: none;
-  border-left-style: none;
-  border-right-style: none;
-  border-bottom: 1px solid #a8a8a8;
-  color: #333;
-}
- 
-.register input:active,
-.register input:focus{
-  outline: none;
-}
- 
-.register .submit{
-  width: auto;
-  padding: 10px;
-  background: #f17108;
-  color: #fff;
-  font-size: 12px;
-  box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
-  cursor: pointer;
-}
- 
-.register::after{
 
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  top: 50%;
-  right: -23px;
-  padding: 10px;
-  text-align: center;
-  font-size: 19px;
-  background: #f1f1f1;
-  border-radius: 50%;
-  transform: translateY(-50%);
-  box-shadow: -1px 1px 3px 1px rgba(0, 0, 0, .2);
-  color: #7c7c7c;
+
+#logo{
+  width: 80px;
+  height: 60px;
 }
- 
-.login{
-  background-image: linear-gradient(to bottom right, #1ab6b6, #4cac6e);
-  padding: 40px;
-}
- 
-.login h2{
-  color: #fff;
-  margin-bottom: 45px;
-}
- 
-.login button i{
-  position: absolute;
-  top: 12px; 
-  left: 12px;
-}
- 
-.login button{
-  width: 100%;
-  margin: 15px 0px;
-  padding: 10px;
-  box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
-  cursor: pointer;
-  position: relative;
-}
- 
-.login .fb{
-  background: #3b5999;
-  border-style: none;
-  color: #fff;
-}
- 
-.login .tw{
-  background: #55acef;
-  border-style: none;
-  color: #fff;
-}
- 
-.login .correo{
-  background: #33d4ce;
-  border-style: none;
-  color: #fff;
-}
- 
-@media only screen and (max-width: 540px){
-  .login-container{
-    display: block;
-  }
- 
-  .register, .login{
-    flex: none;
-  }
- 
-  .register::after{
-    top: unset;
-    bottom: -25px;
-    left: 50%;
-    transform: translateX(-50%) rotate(90deg);
-  }
-  
+
+
+
+/* FORMULARIO DE LOGIN*/
+
+.bodyregistro{
+
+  background-color: rgb(255, 255, 255)
 }
 
 .form-login {
@@ -187,9 +95,10 @@ body{
   height: 340px;
   background: gray(8, 8, 8);
   margin: auto;
-  margin-top: 180px;
-  box-shadow: 7px 13px 37px black;
+  margin-top: 90px;
+  box-shadow: 2px 10px 20px 0px black;
   padding: 20px 30px;   
+  border-radius: 4px;
 }
 
 .form-login h5{ 
@@ -237,8 +146,112 @@ font-size: 14px;
 
 }
 
+/*FORMULARIO REGISTRO*/
 
 .body-usuario{
 
   background-color: white;
 }
+.form-register{
+
+  width: 400px;
+  background: gray;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white ;
+  box-shadow: 7px 13px 37px #000 ;
+}
+
+.form-register h4{
+font-size: 22px;
+margin-bottom: 20px;
+color: black;
+}
+
+.control{
+  width: 100%;
+  background:white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 16px;
+  border: 1px solid ;
+  font-size: 18px;
+}
+
+.form-register p{
+
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+} 
+
+.boton {
+
+  width: 400px;
+  background: #1f54c5;
+  border:none;
+  padding: 12px;
+  color:white;
+  margin: 16p 0;
+  font-size: 16px;
+  
+}
+
+/* FORMULARIO DE CONTACTO */
+
+.form-contacto{
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+  }
+  
+  .form-contacto h2 {
+  
+      color: #fff;
+      text-align:center;
+      margin:0;
+      font-size: 30px;
+      margin-bottom: 20px;
+  }
+  
+  .form-contacto input, textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding:7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  }
+  
+   textarea{
+  min-height: 100px;
+  max-height: 200px;
+  max-width:100% ;
+  }
+  
+  .form-contacto button{
+      background: #31384A;
+      color: #fff;
+      max-width:100% ;
+  }
+  h2{
+    text-align: center;
+    font-size: 18px;
+  }
+  .foot{
+    background-color: #000;
+    color: white;
+   
+  }
+  .foot a {
+    text-decoration: none;
+  }
+  .title{
+    color: crimson;
+  }
