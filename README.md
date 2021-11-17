@@ -5,8 +5,6 @@ a2-g4-a2-g4 created by GitHub Classroom
 
 - CbaMed nació para suplir las necesidades de cada paciente, es una plataforma que garantiza la atención médica a distancia.
 
-- Full-featured: Real-time Preview, Image (cross-domain) upload, Preformatted text/Code blocks/Tables insert, Code fold, Search replace, Read only, Themes, Multi-languages, L18n, HTML entities, Code syntax highlighting...;Mediante cualquier dispositivo (computadora, celular, tablet) podrá acceder a nuestro sitio web para:
-
 - Registro de usuario
 - Solicitud y cancelación de turno, pudiendo elegir el profesional que lo atenderá (recibirá por whatsapp, email y sms la confirmación con un enlace para la video consulta)
 - Acceso a su historia clínica 
