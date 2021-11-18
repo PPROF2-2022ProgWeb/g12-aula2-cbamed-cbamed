@@ -19,8 +19,8 @@ Cumplimos con lo que establece la Organización Mundial de la Salud y el Ministe
 ##Grupo 4 - Aula 2
 ####Integrantes
 
-- Storella Brenda
-- Perez Verde Nicolas
+
+- Storello Brenda
 - Cabrera Veronica
 - Fernandez Yesica
 - Gaitán Alba
