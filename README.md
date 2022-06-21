@@ -16,11 +16,11 @@ Entre otras cosas y así, el usuario podrá gestionar sus necesidades sin inconv
 
 Cumplimos con lo que establece la Organización Mundial de la Salud y el Ministerio de Salud de la Nación.
 
-### Grupo 4 - Aula 2 
+### Grupo 12 - Aula 2 
 #### Integrantes
 
 - Storello Brenda
-- Veronica Cabrera
 - Fernández Yesica
 - Perez Verde Nicolas
 - Gaitán Alba
+- Martinez Mauro Andres
