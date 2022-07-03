@@ -20,7 +20,6 @@ Cumplimos con lo que establece la Organización Mundial de la Salud y el Ministe
 #### Integrantes
 
 - Storello Brenda
-- Fernández Yesica
 - Perez Verde Nicolas
 - Gaitán Alba
 - Martinez Mauro Andres
