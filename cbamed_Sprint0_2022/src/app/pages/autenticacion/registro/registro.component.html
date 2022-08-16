@@ -1,0 +1,52 @@
+<div class="container" id="container">
+    <div class="login-container"id="container-registro">
+     <form id="formulario" method="post" action="http://localhost/CBAMED/registrar.php" class="formulario needs-validation" novalidate id="formulario"> 
+ 
+       <h2>Registrarse</h2>
+       <div class="mb-3">
+         <label for="exampleInputEmail1" class="form-label">Nombre y Apellido</label>
+         <input id="user" name="nombre" class="form-control" type="text" placeholder="Nombre y Apellido" class="NomApellido" minlength="2" required>
+       </div>
+ 
+       <div class="mb-3" >
+         <label for="exampleInputEmail1" class="form-label" >Email </label>
+         <input class="form-control" name="correo" type="email" placeholder="ejemplo@outlook.com" id="correo" class="correo" minlength="5" required> 
+       </div>
+ 
+       <!-- Campo fecha -->
+       <div class="mb-3">
+         <label for="exampleInputEmail1" class="form-label">Fecha de Nacimiento</label>
+         <input class="form-control" name="nacimiento" type="date" placeholder="fecha de nacimiento" id="fechaNacimiento" class="Fecha de nacimiento" minlength="8" oninput="agregarEdad(this, 'edad')" required>
+       </div>
+       <!-- mostrar edad -->
+       <div>
+         <label for="validationToolTip01" class="form-label"> Edad: </label> <span id="edad" ></span>
+ 
+       </div>
+       <!-- Fin de mostrar edad -->
+       <div class="mb-3">
+         <label for="exampleInputEmail1" class="form-label">Nacionalidad</label>
+         <input class="form-control" name="nacionalidad" type="text" placeholder="País" id="Nacionalidad" class="País" minlength="4" required>
+       </div>
+       <div class="mb-3">
+         <label for="exampleInputEmail1" class="form-label">Provincia </label>
+         <input class="form-control" name="provincia" type="text" placeholder="Provincia" id="Provincia" class="Provincia" minlength="4" required>
+       </div>
+       <div class="mb-3">
+         <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+         <input class="form-control" name="pass" type="password" placeholder="Contraseña" id="clave" class="pass" minlength="6" required>
+       </div>
+       <div class="mb-3 ">
+         <label for="exampleInputPassword1" class="form-label">Confirma la Contraseña</label>
+         <input class="form-control" type="password" placeholder="Confirma contraseña" id="clave2" class="repass" minlength="6" required>
+       </div>
+       <!--  boton enviar -->
+       <div class="form-group" id="form-group-button">
+ 
+         <button id="enviar" type="submit" class="btn btn-primary" onclick="validarCorreo(document.getElementById('correo').value)" onmouseover="cambiarBoton()" onmouseout="cambiarBoton2();" >Enviar</button>
+ 
+        
+       </div> 
+     </form>
+    </div> 
+</div> 
