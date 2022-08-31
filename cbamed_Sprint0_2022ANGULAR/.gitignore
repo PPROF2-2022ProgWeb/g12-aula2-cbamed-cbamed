@@ -1,4 +1,13 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
+.vscode
+.browserlistrc
+.angular.json
+karma.conf
+package.json
+readme
+tsconfig.app.json
+tsconfig.json
+tsconfig.spec.json
 
 # Compiled output
 /dist
