@@ -9,6 +9,7 @@ import { AcercaDeNosotrosComponent } from './pages/acerca-de-nosotros/acerca-de-
 import { EcommerceComponent } from './pages/ecommerce/ecommerce.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +17,8 @@ import { EcommerceComponent } from './pages/ecommerce/ecommerce.component';
     NavbarComponent,
     FooterComponent,
     AcercaDeNosotrosComponent,
-    EcommerceComponent
+    EcommerceComponent,
+  
   ],
   
   imports: [
